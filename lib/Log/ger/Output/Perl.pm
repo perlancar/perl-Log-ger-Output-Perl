@@ -123,4 +123,7 @@ Pass message to L<Carp>'s C<confess()>.
 
 Modelled after L<Log::Dispatch::Perl>.
 
+L<Log::Dispatch::Plugin::Perl> which actually replaces the log statements with
+warn(), die(), etc.
+
 =cut
